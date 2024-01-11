@@ -10,11 +10,11 @@ body {
     margin-top:0;
 } */
 
-.container {
+/* .container {
   display: flex;
   background-color: aquamarine;
   justify-content: center;
-}
+} */
 
 .container button:nth-child(even) {
   background-color: red;
