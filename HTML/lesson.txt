@@ -1,0 +1,50 @@
+1. Показать вещи как touch mkdir в терминале 
+2. Показать экстеншны Prettier и HTML CSS snippets, live server
+3. Спросить есть какие нибудь вопросы по вчерашнему если есть то использовать соответствующую папку и показать примеры 
+4. Показать pseudo-classes n-th-child чтобы студенты могли его использовать в домашке 
+5. Дать ученикам попробовать сделать 8ую задачу с домашки используя n-th-child
+6. Сделать разбор этой задаче 
+
+box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+
+
+
+
+
+1)  justify-content: flex-end;
+2)  justify-content: center;
+3)  justify-content: space-around;
+4)  justify-content: space-between;
+5)  align-items: flex-end;
+6)  align-items: center;
+    justify-content: center;
+7)  justify-content: space-around;
+8)  flex-direction: row-reverse;
+9)  flex-direction: column;
+10) flex-direction: row-reverse;
+    justify-content: flex-end;
+11) flex-direction: column;
+    justify-content: flex-end;
+12) flex-direction: column-reverse;
+    justify-content: space-between;
+13) flex-direction: row-reverse;
+    justify-content: center;   
+    align-items: flex-end;
+14) order: 1;
+15) order: -3;
+16) align-self: flex-end;
+17) align-self: flex-end;
+    order: 1;
+18) flex-wrap: wrap;
+19) flex-direction: column;
+    flex-wrap: wrap;
+20) flex-flow: column wrap;
+21) align-content: flex-start;
+22) align-content: flex-end;
+23) flex-direction: column-reverse;
+    align-content: center; 
+24) flex-flow:column-reverse wrap-reverse;
+    justify-content:center;
+    align-content:space-between;

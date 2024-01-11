@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;900&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Inter', sans-serif;
+}
+
+body div:not(:nth-child(1)) {
+  /* margin-top:1rem; */
+}
+
+/* body div:nth-child(1) {
+    margin-top:0;
+} */
+
+.container {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+}
+
+.container button:nth-child(even) {
+  background-color: red;
+}
+
+.container2 {
+  background-color: rgb(175, 206, 175);
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  align-items: center;
+}
+
+.container2 div {
+  flex: 1;
+  height: 20px;
+  border: solid;
+}
+
+.container2 div:nth-child(even) {
+  flex: 5;
+  background-color: orange;
+}
+
+.container2 div:nth-child(n + 10) {
+  min-width: 50px;
+}
+
+.how_it_works {
+  background-color: #712fff;
+  border: 0;
+  border-radius: 100px;
+  padding: 10px 24px 10px 24px;
+  margin-top: 1rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+.how_it_works:hover {
+  /* box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15); */
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  
+}
+.how_it_works:disabled {
+  font-family: 'Inter', sans-serif;
+  background-color: rgba(31, 31, 31, 0.12);
+}

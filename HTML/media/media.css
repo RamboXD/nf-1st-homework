@@ -1,0 +1,44 @@
+body {
+  margin: 0; /* remove default margin */
+}
+
+.flex {
+  display: flex; /* establish flex container */
+  flex-direction: column; /* column layout, making flex-items appear below each other */
+}
+
+.column1 {
+  background-color: green;
+}
+
+.column2 {
+  background-color: blue;
+}
+
+/* 
+DESKTOP VERSION 
+This code is loaded when the browser window's width is 768px or higher.
+The 'flex-direction: row' property organizes the two child containers in a row layout, making them appear next to each other.
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+  .flex {
+    flex-direction: row;
+  }
+
+  .flex div {
+    flex: 1; /* two child divs get an even width */
+  }
+}

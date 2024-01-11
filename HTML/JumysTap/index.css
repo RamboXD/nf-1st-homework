@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;800&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 80px 12px 80px;
+  align-items: center;
+  height: 62px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.left img {
+  height: 22px;
+  width: 18.68px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.right button {
+  background-color: rgba(8, 30, 52, 0.12);
+  padding: 10px, 12px, 10px, 12px;
+  border-radius: 100px;
+  border: none;
+  height: 38px;
+  width: 102px;
+}
+
+.first_part {
+  height: 620px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.first_part .laptop {
+  width: 687px;
+  height: 548px;
+  border-radius: 32px;
+}
+
+.get_hired {
+  width: 495px;
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.first-title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 64px;
+}
+
+.first-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+.how_it_works {
+  background-color: #712fff;
+  border: 0;
+  border-radius: 100px;
+  padding: 10px 24px 10px 24px;
+  margin-top: 1rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+.how_it_works:hover {
+  /* box-shadow:0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15); */
+  box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+}
+
+.dollar {
+  position: absolute;
+  top: 130px;
+  right: 350px;
+  width: 139px;
+  height: 213px;
+}
+
+.fire {
+  height: 172px;
+  width: 148px;
+  position: absolute;
+  top: 450px;
+  right: 90px;
+}
