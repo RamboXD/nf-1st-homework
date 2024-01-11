@@ -6,10 +6,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-body div:not(:nth-child(1)) {
-  /* margin-top:1rem; */
-}
-
 /* body div:nth-child(1) {
     margin-top:0;
 } */
@@ -63,7 +59,6 @@ body div:not(:nth-child(1)) {
   box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
 
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.3);
-  
 }
 .how_it_works:disabled {
   font-family: 'Inter', sans-serif;
